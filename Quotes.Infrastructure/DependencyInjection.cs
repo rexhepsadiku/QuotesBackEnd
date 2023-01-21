@@ -17,7 +17,8 @@ namespace Quotes.Infrastructure
         {
             services.AddDbContext<QuotesDbContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("QuotesDb"));
+                //options.UseSqlServer(configuration.GetConnectionString("QuotesSqlServer"));
+                options.UseNpgsql(configuration.GetConnectionString("QuotesPostgres"));
             });
 
             services.AddScoped<IQuotesDbContext, QuotesDbContext>();
