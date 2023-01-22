@@ -1,1 +1,2 @@
 # QuotesBackEnd
+# Quotes API allows users to create an account and log in to the system. Once logged in, users can submit their own quotes to be published on the platform. The API # allows for easy management of user-generated content, including the ability to edit and delete quotes. The quotes can be retrieved through the API and can be integrated into other applications. It's a great way for users to share their thoughts and insights with a community, and for others to discover new perspectives and inspiration.
