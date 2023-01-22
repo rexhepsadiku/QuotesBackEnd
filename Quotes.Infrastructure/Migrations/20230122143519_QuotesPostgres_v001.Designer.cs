@@ -12,8 +12,8 @@ using Quotes.Infrastructure.Persistence;
 namespace Quotes.Infrastructure.Migrations
 {
     [DbContext(typeof(QuotesDbContext))]
-    [Migration("20230121220111_QuotesPostgres_v002")]
-    partial class QuotesPostgres_v002
+    [Migration("20230122143519_QuotesPostgres_v001")]
+    partial class QuotesPostgres_v001
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
